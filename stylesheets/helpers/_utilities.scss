@@ -642,15 +642,14 @@ $utilities: map-merge(
       )
     ),
     // scss-docs-end utils-visibility
-    
-    // custom
-    "object-fit": (
+    // custom 無編譯成功？
+      "object-fit": (
         property: object-fit,
         class: "object-fit",
-        values: cover,
-    ),
-   
+        values: cover
+      ),
 
   ),
   $utilities
 );
+
